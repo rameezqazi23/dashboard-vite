@@ -29,7 +29,7 @@ const cities = [
 
 const ListComponent = () => (
     <Card className="max-w-full mx-auto mt-4">
-        <Title>Tremor's Hometowns</Title>
+        <Title>Tremor Hometowns</Title>
         <List>
             {cities.map((item) => (
                 <ListItem key={item.city}>
